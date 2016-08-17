@@ -15,8 +15,11 @@
         border-bottom: 2px solid #eff5f7;
         line-height: 3em;
         text-decoration: none;
+        transition: 350ms all ease;
         &:hover {
           text-decoration: none;
+          padding-left: 10px;
+          color: #000
         }
       }
       &.danger a{

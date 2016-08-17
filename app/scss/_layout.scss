@@ -48,7 +48,9 @@ body *{
 }
 
 .index{
-  @include vertical-gradient(#43cea2,#185a9d);
   display: table;
   width: 100%;
+}
+.gradient {
+  @include vertical-gradient(#43cea2,#185a9d);
 }

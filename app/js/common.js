@@ -18,7 +18,7 @@ function swipeSidebar() {
 }
 
 function indexHeight() {
-  $('.index').css({
+  $('body, .index').css({
     'min-height' : $(window).height()
   });
 }
