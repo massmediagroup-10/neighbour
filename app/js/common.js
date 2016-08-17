@@ -26,7 +26,7 @@ function indexHeight() {
 (function ($) {
   swipeSidebar();
   indexHeight();
-  
+
   $(window).resize(function () {
     indexHeight();
   })
