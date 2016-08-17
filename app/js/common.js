@@ -17,6 +17,17 @@ function swipeSidebar() {
   })
 }
 
+function indexHeight() {
+  $('.index').css({
+    'min-height' : $(window).height()
+  });
+}
+
 (function ($) {
   swipeSidebar();
+  indexHeight();
+  
+  $(window).resize(function () {
+    indexHeight();
+  })
 })(jQuery)
