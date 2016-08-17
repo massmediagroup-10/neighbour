@@ -1,108 +1,27 @@
-# base-project
+# neighbour front-end
 
-## Встановлення
+## Prerequisites
 
-*Для роботи необхідний [NodeJS](http://nodejs.org/)*
+You will need the following things properly installed on your computer.
 
-*Ввести в терміналі:*
- 
-```````
-npm install -g gulp
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Gulp](http://gulpjs.com/)
 
-npm install -g bower
+## Installation
 
-npm init
+* `git clone https://github.com/massmediagroup-10/neighbour`
+* change into the new directory
+* `npm install`
+* `bower install`
 
-npm install --save-dev gulp 
+## Running / Development
 
-```````
+* `gulp` _Run project and visit your app at [http://localhost:3000](http://localhost:3000)_
 
+* `gulp prod` _Switch the mode to "production" (public and optimized)_
 
-**Структура проекту**
+* `gulp clean` _Delete all files from build_
 
-``````````
-├── app
-│   ├── img
-│   ├── js
-│   │   └── vendor
-│   │   │   └── modernizr.js
-│   │   └── application.js
-│   │   └── common.js
-│   ├── css
-│   │   └── main.css
-│   │   └── develop-style.css
-│   ├── partials
-│   │   └── footer.html
-│   │   └── form.html
-│   │   └── head.html
-│   │   └── header.html
-│   │   └── header-menu.html
-│   │   └── map-google.html
-│   │   └── template.html
-│   ├── scss
-│   │   └── partials
-│   │   │   └── header.scss
-│   │   │   └── footer.scss
-│   │   └── base.scss
-│   │   └── buttons.scss
-│   │   └── fonts.scss
-│   │   └── forms.scss
-│   │   └── icons.scss
-│   │   └── layout.scss
-│   │   └── mixins.scss
-│   │   └── navbar.scss
-│   │   └── partials.scss
-│   │   └── reset.scss
-│   │   └── responsive.scss
-│   │   └── settings.scss
-│   │   └── typo.scss
-│   │   └── main.scss
-│   └── index.html
-├── build
-│   ├── img
-│   ├── js
-│   │   └── application.js
-│   │   └── bower.js
-│   │   └── common.js
-│   ├── css
-│   │   └── bower.css
-│   │   └── develop-style.css
-│   │   └── main.css
-│   └── index.html
-├── zip
-│   └── compressed-files
-├── bower_components
-├── node_modules
-├── package.json
-├── gulpfile.js
-├── bower.json
-├── .bowerrc
-├── .gitattributes
-└── .gitignore
-``````````
-
-**Швидкі команди**
-
-* **gulp** _Запуск проекту_
-
- ```````
-  gulp
-  ```````
-
-* **prod** _Переключення в режим "production" (публічний та оптимізований)_
-
- ```````
-  gulp prod
-  ```````
-
-* **Clean** _Видалення всіх файлів з папки build_
-
- ```````
-  gulp clean
-  ```````
-
-* **Zip** _Стиснення і збереження в `zip` папку з міткою часу для швидкого обміну_
-
-```````
-gulp zip
-```````
+* `gulp zip` _Compress and save as zip in folder with a timestamp for the rapid exchange_
