@@ -48,8 +48,8 @@ body *{
 }
 
 .index{
-  display: table;
-  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
 }
 .gradient {
   @include vertical-gradient(#43cea2,#185a9d);

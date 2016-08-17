@@ -1,6 +1,11 @@
 .signin {
-  display: table-cell;
-  vertical-align: middle;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
   &-inner{
     padding: 0 15px;

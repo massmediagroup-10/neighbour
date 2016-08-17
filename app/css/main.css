@@ -5907,8 +5907,8 @@ body * {
   margin-bottom: 30px; }
 
 .index {
-  display: table;
-  width: 100%; }
+  display: -ms-flexbox;
+  display: flex; }
 
 .gradient {
   background-color: #43cea2;
@@ -6314,8 +6314,13 @@ table td {
       font-size: 20px; } }
 
 .signin {
-  display: table-cell;
-  vertical-align: middle; }
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
   .signin-inner {
     padding: 0 15px;
     margin: 0 auto;
