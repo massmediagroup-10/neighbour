@@ -1,0 +1,53 @@
+.signin {
+  display: table-cell;
+  vertical-align: middle;
+
+  &-inner{
+    padding: 0 15px;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .logo{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom:35px;
+
+    &-image{
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+    &-title{
+      color: #fff;
+    }
+  }
+  &-form{
+    .form-control {
+      border-color: #acd8d9;
+      background: rgba(255,255,255,0.4);
+      color: #fff;
+      &::placeholder{
+        color:#fff;
+        opacity:1;
+      }
+    }
+    button{
+      position: relative;
+      &:after{
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        right: 30px;
+        bottom: 0;
+        margin: auto;
+        box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.3);
+        z-index: -1;
+        transition: 200ms all ease;
+      }
+      &:hover:after{
+        bottom: 4px;
+      }
+    }
+  }
+}

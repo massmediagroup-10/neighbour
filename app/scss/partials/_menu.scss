@@ -1,0 +1,30 @@
+.menu{
+  border-right: 2px solid #eff5f7;
+  h2{
+
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    @media (min-width:768px) {
+      margin-top: -18px;
+    }
+    li{
+      a{
+        display: block;
+        border-bottom: 2px solid #eff5f7;
+        line-height: 3em;
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      &.danger a{
+        color: $dangerColor;
+      }
+      &:last-child a{
+        border-bottom: 0;
+      }
+    }
+  }
+}

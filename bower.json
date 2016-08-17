@@ -1,0 +1,23 @@
+{
+  "name": "frontend-devil",
+  "version": "1.0.0",
+  "homepage": "https://github.com/onyzhin/base-FE",
+  "authors": [
+    "o.nyzhin@gmail.com"
+  ],
+  "description": "base front-end",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "2.*"
+  },
+  "main": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

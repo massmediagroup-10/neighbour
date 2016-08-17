@@ -1,0 +1,43 @@
+.header{
+  padding-top: 30px;
+  .logo{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom:35px;
+
+    &-image{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &-title{
+      color: #646d77;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+  }
+}
+
+.head {
+  a{
+    display: block;
+    text-decoration: none;
+  }
+  &-icon {
+    float: left;
+    padding-left: 20px;
+  }
+  @media (max-width:767px) {
+    text-align: center;
+    border-bottom: 2px solid #eff5f7;
+    margin-left: -15px;
+    margin-right: -15px;
+    a{
+      padding: 16px 0 14px 0;
+    }
+    h2{
+      margin: 0;
+      font-size: 20px;
+    }
+  }
+}

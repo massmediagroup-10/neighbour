@@ -1,0 +1,73 @@
+@@include('_head.html', {"class": ""})
+<header class="header hidden-xs">
+  <div class="container">
+    <div class="logo pull-right">
+      <div class="logo-title">Neighbour Secure</div>
+      <div class="logo-image"><img src="img/logo.png" alt=""></div>
+    </div>
+  </div>
+</header>
+  <div class="inner main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 sidebar menu">
+          <div class="head">
+            <a href="#" class="hide-sidebar">
+              <h2>Account settings</h2>
+            </a>
+          </div>
+          <ul>
+            <li><a href="#">Change password</a></li>
+            <li><a href="#">Change Email adress</a></li>
+            <li><a href="#">Change Phone number</a></li>
+            <li><a href="#">Change Profile icon</a></li>
+            <li><a href="#">Invoices</a></li>
+            <li><a href="#">Add/update billing information</a></li>
+            <li class="danger"><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8 content">
+          <div class="row">
+            <div class="invoices col-md-12">
+              <div class="head hidden-xs">
+                <h2>Invoices</h2>
+              </div>
+              <div class="head hidden-sm hidden-md hidden-lg">
+                <a href="#" class="show-sidebar">
+                  <span class="head-icon"><i class="icon angle"></i></span>
+                  <h2>Invoices</h2>
+                </a>
+              </div>
+              <div class="invoices-row row">
+                <div class="invoices-item">
+                  <div class="invoices-title col-xs-7">July 2016</div>
+                  <div class="invoices-info col-xs-5">
+                    <div class="invoices-status">Awaiting payment</div>
+                    <p>€4,95</p>
+                    <p>iDeal</p>
+                  </div>
+                </div>
+                <div class="invoices-item">
+                  <div class="invoices-title col-xs-7">June 2016</div>
+                  <div class="invoices-info col-xs-5">
+                    <div class="invoices-status danger">Pay here</div>
+                    <p>€4,95</p>
+                    <p>iDeal</p>
+                  </div>
+                </div>
+                <div class="invoices-item">
+                  <div class="invoices-title col-xs-7">May 2016</div>
+                  <div class="invoices-info col-xs-5">
+                    <div class="invoices-status success">Paid on 1-5-2016</div>
+                    <p>€4,95</p>
+                    <p>iDeal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+@@include('_footer.html')

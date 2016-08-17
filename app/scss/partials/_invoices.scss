@@ -1,0 +1,40 @@
+.invoices{
+  &-row{
+
+  }
+  &-item{
+    display: table;
+    width: 100%;
+    border-bottom: 2px solid #eff5f7;
+    &:last-child{
+      border-bottom: 0;
+    }
+  }
+  &-title,
+  &-info{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+  &-info{
+    p{
+      text-align: right;
+      margin: 5px 0;
+      clear: right;
+    }
+  }
+  &-status{
+    border: 2px solid $ctextColor;
+    text-align: center;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 0 6px;
+    float: right;
+    &.danger{
+      border-color: $dangerColor;
+    }
+    &.success{
+      border-color: $successColor;
+    }
+  }
+}
