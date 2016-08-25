@@ -32,9 +32,11 @@
     float: right;
     &.danger{
       border-color: $dangerColor;
+      color:  $dangerColor;
     }
     &.success{
       border-color: $successColor;
+      color: $successColor;
     }
   }
 }

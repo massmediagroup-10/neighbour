@@ -28,6 +28,25 @@
       &:last-child a{
         border-bottom: 0;
       }
+      &.active a{
+        color: #000000;
+        box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.1);
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+  .head {
+    position: relative;
+    @media (min-width:768px) {
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -12px;
+        border-bottom: 2px solid #eff5f7;
+      }
     }
   }
 }
