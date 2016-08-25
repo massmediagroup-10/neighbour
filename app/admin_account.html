@@ -1,0 +1,79 @@
+@@include('_head.html', {"class": ""})
+<header class="header hidden-xs">
+  <div class="container">
+    <div class="logo pull-right">
+      <div class="logo-title">Neighbour Secure</div>
+      <div class="logo-image"><img src="img/logo.png" alt=""></div>
+    </div>
+  </div>
+</header>
+<div class="inner main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 sidebar menu">
+        <div class="head">
+          <a href="#" class="hide-sidebar">
+            <h2>Admin panel</h2>
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">Find users</a></li>
+          <li><a href="#">Payments</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-8 content">
+        <h2>Account</h2>
+        <p><a href="#">john@web.com</a></p>
+        <div class="row">
+          <div class="invoices col-md-12">
+            <div class="head hidden-xs">
+              <h2>Invoices</h2>
+            </div>
+            <div class="head hidden-sm hidden-md hidden-lg">
+              <a href="#" class="show-sidebar">
+                <span class="head-icon"><i class="icon angle"></i></span>
+                <h2>Invoices</h2>
+              </a>
+            </div>
+            <div class="invoices-row row">
+              <div class="invoices-item">
+                <div class="invoices-title col-xs-5">July 2016</div>
+                <div class="invoices-info col-xs-5">
+                  <div class="invoices-status">Awaiting payment</div>
+                  <p>€4,95</p>
+                  <p>iDeal</p>
+                </div>
+                <div class="invoices-info col-xs-2">
+                  <a href="#" class="invoices-status danger action-btn">Cancel</a>
+                </div>
+              </div>
+              <div class="invoices-item">
+                <div class="invoices-title col-xs-5">June 2016</div>
+                <div class="invoices-info col-xs-5">
+                  <div class="invoices-status danger">Pay here</div>
+                  <p>€4,95</p>
+                  <p>iDeal</p>
+                </div>
+                <div class="invoices-info col-xs-2">
+                  <a href="#" class="invoices-status danger action-btn">Cancel</a>
+                </div>
+              </div>
+              <div class="invoices-item">
+                <div class="invoices-title col-xs-5">May 2016</div>
+                <div class="invoices-info col-xs-5">
+                  <div class="invoices-status success">Paid on 1-5-2016</div>
+                  <p>€4,95</p>
+                  <p>iDeal</p>
+                </div>
+                <div class="invoices-info col-xs-2">
+                  <a href="#" class="invoices-status danger action-btn">Cancel</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+@@include('_footer.html')

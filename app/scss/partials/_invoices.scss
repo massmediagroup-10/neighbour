@@ -6,6 +6,9 @@
     display: table;
     width: 100%;
     border-bottom: 2px solid #eff5f7;
+    &:first-child{
+      border-top: 2px solid #eff5f7;
+    }
     &:last-child{
       border-bottom: 0;
     }
@@ -33,6 +36,12 @@
     &.danger{
       border-color: $dangerColor;
       color:  $dangerColor;
+      &.action-btn {
+        &:hover {
+          background: #ffbab2;
+          color: #fff;
+        }
+      }
     }
     &.success{
       border-color: $successColor;

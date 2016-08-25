@@ -6373,7 +6373,8 @@ table td {
     .menu ul li a {
       display: block;
       border-bottom: 2px solid #eff5f7;
-      line-height: 3em;
+      padding-top: 0.2em;
+      line-height: 2.8em;
       text-decoration: none;
       transition: 350ms all ease; }
       .menu ul li a:hover {
@@ -6404,6 +6405,8 @@ table td {
   display: table;
   width: 100%;
   border-bottom: 2px solid #eff5f7; }
+  .invoices-item:first-child {
+    border-top: 2px solid #eff5f7; }
   .invoices-item:last-child {
     border-bottom: 0; }
 
@@ -6427,6 +6430,16 @@ table td {
   .invoices-status.danger {
     border-color: #e33b27;
     color: #e33b27; }
+    .invoices-status.danger.action-btn:hover {
+      background: #ffbab2;
+      color: #fff; }
   .invoices-status.success {
     border-color: #43cda1;
     color: #43cda1; }
+
+.search-form {
+  margin-bottom: 40px; }
+
+.search-result h4, .search-result h3, .search-result h2 {
+  border-bottom: 2px solid #eff5f7;
+  padding-bottom: 10px; }
